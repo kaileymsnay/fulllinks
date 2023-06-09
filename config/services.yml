@@ -1,0 +1,5 @@
+services:
+    kaileymsnay.fulllinks.listener:
+        class: kaileymsnay\fulllinks\event\main_listener
+        tags:
+            - { name: event.listener }
